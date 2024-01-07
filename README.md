@@ -28,19 +28,7 @@ The RGB image and depth map are stored in `/color` and `/depth`, respectively. T
 
 
 
-The transformation relationship between the camera coordinate system and the rotation center of the camera is
-$$
-T = \left| {\begin{array}{*{20}{c}}
-R&t\\
-0&1
-\end{array}} \right| = \left| {\begin{array}{*{20}{c}}
-{{\rm{0}}{\rm{.999043}}}&{{\rm{ - 0}}{\rm{.0207401}}}&{{\rm{0}}{\rm{.0385098}}}&{{\rm{0}}{\rm{.0372677}}}\\
-{{\rm{0}}{\rm{.0202488}}}&{{\rm{0}}{\rm{.999709}}}&{{\rm{0}}{\rm{.013104}}}&{{\rm{ - 3}}{\rm{.59057e - 06}}}\\
-{{\rm{ - 0}}{\rm{.0387704}}}&{{\rm{ - 0}}{\rm{.0123117}}}&{{\rm{0}}{\rm{.999172}}}&{{\rm{ - 1}}{\rm{.09571e - 09}}}\\
-0&0&0&1
-\end{array}} \right|
-$$
-Where R represents the rotation matrix, and the unit of t is meters.
+The file `extristrics.txt` stores the transformation relationship between the camera coordinate system and the rotation center of the camera. The upper-left `3*3` matrix represents the rotation matrix, and the `3*1` vector in the first three rows of the fourth column represents translation, with units in meters.
 
 
 
