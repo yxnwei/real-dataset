@@ -6,7 +6,7 @@ The rotational collection device we use is as follows.
 
 Therefore, for each camera, it only involves one degree of freedom rotational movement around the axis of rotation.
 
-The data for the middle camera is located in the path `Dataxxx/mian`.
+The data for the middle camera is located in the path `Dataxxx/main`.
 
 
 
