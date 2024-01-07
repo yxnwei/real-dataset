@@ -2,7 +2,7 @@
 
 The rotational collection device we use is as follows.
 
-![image-20240107150039784](README.assets/image-20240107150039784.png)
+![image-20240107154517138](README.assets/image-20240107154517138.png)
 
 Therefore, for each camera, it only involves one degree of freedom rotational movement around the axis of rotation.
 
