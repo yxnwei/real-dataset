@@ -1,0 +1,54 @@
+In this dataset, we transform depth to color and transform acc&gyro to depth!!!
+
+DEPTH CALIBRATION PARAMETERS:
+resolution width: 640
+resolution height: 576
+Type of calibration model used: BROWN_CONRADY
+principal point x: 320.869
+principal point y: 342.27
+focal length x: 504.582
+focal length y: 504.65
+depth scale: 1000
+radial distortion coefficients:
+k1: 2.99872
+k2: 1.84756
+k3: 0.0929484
+k4: 3.33092
+k5: 2.81371
+k6: 0.498039
+center of distortion in Z=1 plane, x: 0
+center of distortion in Z=1 plane, y: 0
+tangential distortion coefficient x: 9.19018e-05
+tangential distortion coefficient y: 5.88759e-05
+metric radius: 0
+-----------------
+COLOR CALIBRATION PARAMETERS: 
+resolution width: 1280
+resolution height: 720
+Type of calibration model used: BROWN_CONRADY
+principal point x: 647.575
+principal point y: 371.872
+focal length x: 603.484
+focal length y: 603.495
+radial distortion coefficients:
+k1: 0.439067
+k2: -2.63805
+k3: 1.59335
+k4: 0.320823
+k5: -2.4621
+k6: 1.51695
+center of distortion in Z=1 plane, x: 0
+center of distortion in Z=1 plane, y: 0
+tangential distortion coefficient x: -1.77815e-05
+tangential distortion coefficient y: -0.000242946
+metric radius: 0
+-----------------
+EXTRINSICS: each data has its own coordinate, we use calibration function to convert them to a same coordinate, then output them 
+d2c(i2c): 
+0.999998 -0.00205795 -0.000712926 -31.9746
+0.00211694 0.99537 0.0960932 -1.99366
+0.00051187 -0.0960944 0.995372 3.91607
+c2d(d2i): 
+0.999998 0.00211694 0.00051187 31.9768
+-0.00205795 0.99537 -0.0960944 2.29494
+-0.000712926 0.0960932 0.995372 -3.72917
